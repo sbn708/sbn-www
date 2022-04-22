@@ -1,1 +1,12 @@
+body
+{
+  font-family: sans-serif;
+  color: orange;
+  text-align: center;
+}
 
+.content
+{
+  text-size: 144px;
+  margin: auto;
+}
