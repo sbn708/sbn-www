@@ -1,12 +1,6 @@
 body
 {
-  font-family: sans-serif;
-  color: orange;
-  text-align: center;
-}
-
-.content
-{
-  text-size: 144px;
-  margin: auto;
+  color: #ffffff;
+  font-size: 50px;
+  background-color: #000000;
 }
