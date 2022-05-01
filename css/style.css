@@ -1,12 +1,28 @@
 body
 {
-    color: #ffffff;
-    font-size: 69px;
+    background-image: url(img/moon_bg.webp);
     background-color: #000000;
-<<<<<<< HEAD
-    height: auto;
-    width: auto;
-    position: fixed;
-=======
->>>>>>> 7d13b4d48376f34907ba2e3a5b8ff266023424eb
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    word-wrap: break-word;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    object-position: center;
+}
+
+#content
+{
+    padding: 40px;
+}
+
+#foot
+{
+    padding: 64px;
+    background-color: #0000003f;
+    backdrop-filter: blur(16px);
+    min-height: 100%;
 }
