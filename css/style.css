@@ -16,7 +16,10 @@ body
 
 #content
 {
-    padding: 40px;
+    padding: 20px 80px;
+    min-height: 2160px;
+    text-align: left;
+    text-shadow: 0px 0px 6px #000000;
 }
 
 #foot
@@ -25,4 +28,67 @@ body
     background-color: #0000003f;
     backdrop-filter: blur(16px);
     min-height: 100%;
+    text-shadow: 0px 0px 6px #000000;
+}
+
+#navbar
+{
+    text-align: center;
+    font-size: 20px;
+    min-height: 100px;
+}
+
+ul
+{
+    background-color: #0000003f;
+    backdrop-filter: blur(16px);
+    overflow: hidden;
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    text-shadow: 0px 0px 6px #000000;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: rgb(255, 0, 221);
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 24px;
+}
+
+li a:hover
+{
+    color: #000000;
+    background-color: rgb(4, 0, 255);
+    transition: all 0.2s;
+}
+
+.active
+{
+    color: #ff00c8;
+    background-color: rgb(200, 255, 0);
+    cursor: default;
+}
+
+/* nieodwiedzony */
+a:link
+{
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+/* odwiedzony, najechanie, aktywny */
+a:visited, a:active, a:hover
+{
+    color: #ffffff;
 }
